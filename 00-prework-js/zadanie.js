@@ -17,7 +17,7 @@ const products = [
       price: 1.99
     }
   ]
-  
+
   let sumaZakupy = 0;
   for (let y of products) {
     sumaZakupy = sumaZakupy + y.price
@@ -26,4 +26,4 @@ const products = [
   let liczbaProduktow = products.length
   let sredniaZakupow = sumaZakupy/liczbaProduktow
 
-  console.log (sumaZakupy, liczbaProduktow, sredniaZakupow)
+  console.log ("Rozwiązanie to:" (sumaZakupy, liczbaProduktow, sredniaZakupow))
