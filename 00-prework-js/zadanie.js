@@ -17,10 +17,8 @@ const products = [
       price: 1.99
     }
   ]
-
   
   let sumaZakupy = 0;
-
   for (let y of products) {
     sumaZakupy = sumaZakupy + y.price
   }
