@@ -26,4 +26,4 @@ const products = [
   let liczbaProduktow = products.length
   let sredniaZakupow = sumaZakupy/liczbaProduktow
 
-  console.log ("Rozwiązanie to:" (sumaZakupy, liczbaProduktow, sredniaZakupow))
+  console.log (`Rozwiązanie to: ${sumaZakupy}, ${liczbaProduktow}, ${sredniaZakupow}`);
