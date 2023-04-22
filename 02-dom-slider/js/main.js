@@ -28,12 +28,12 @@ buttonNext.addEventListener('click',handleTitleClick)
 
 // 6. po wcisnieciu przycisku prev, zastap atrybut src obrazka poprzednim elementem z tablicy
 
-const buttonNext = document.querySelector('#buttonNext');
-const handleTitleClick = () => {
-    counter = counter + 1;
-    photo.src = images[counter]
-}
-buttonNext.addEventListener('click',handleTitleClick)
+// const buttonNext = document.querySelector('#buttonNext');
+// const handleTitleClick = () => {
+//     counter = counter + 1;
+//     photo.src = images[counter]
+// }
+// buttonNext.addEventListener('click',handleTitleClick)
 
 // 7. po wcisnieciu przycisku next, w momencie kiedy jest ostatni element slidera, wstaw 1 zdjecie
 // 8. po wcisnieciu przycisku prev, w momencie kiedy jest pierwszy element slidera, wstaw ostatnie zdjecie
